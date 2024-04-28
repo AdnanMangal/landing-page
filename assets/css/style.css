@@ -9,9 +9,12 @@ a{color: white;}
 header{
     width: 100%;
     height: 100vh;
-    background: url('../images/living-room.jpg');
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../images/living-room.jpg');
     background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
     background-size: cover;
+    position: relative;
 
 }
 nav .logo{
@@ -20,7 +23,7 @@ nav .logo{
     text-transform: capitalize;
 }
 nav .logo:hover{
-    border-bottom: 2px solid rgb(29, 136, 150);
+    border-bottom: 2px solid rgb(8, 190, 214);
 }
 header nav{
     display: flex;
@@ -44,7 +47,7 @@ section{
     margin: 250px;
 text-align: center;}
 section h1{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -54,8 +57,9 @@ section h1{
 }
 section p{
     font-size: 1rem;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     margin-bottom: 20px;
+    font-weight: bold;
 }
 button{
     padding: 10px 30px;
@@ -78,7 +82,7 @@ button{
     border: 2px solid rgb(29, 136, 150);
     color: white;}
 .button2:hover{
-    background:  rgb(29, 136, 150);
+    background: rgb(29, 136, 150);
     color: white;
 
 }
